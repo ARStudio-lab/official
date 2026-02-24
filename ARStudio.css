@@ -127,6 +127,16 @@ body{
             background-repeat: no-repeat; 
         }
 
+        #Transform p
+        {
+            color:#000000;
+        }
+
+        #Transform h3
+        {
+            color: #000;
+        }
+
         #Plan{
             background-image: url("assets/ARStudio/FreePlan.svg");
             background-size: cover;       /* fills entire div */
