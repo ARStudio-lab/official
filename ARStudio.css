@@ -223,10 +223,6 @@ body{
             flex-direction: column;
       }
 
-      #FirstLiFooter{
-        margin-left: 75px;
-      }
-
       .FooterBttn{
          border: 0.5px solid #d4d4d4;
          border-radius: 10px;
@@ -239,6 +235,10 @@ body{
         left: 5%;
         text-decoration: none;
         transition: all 0.3s ease;
+      }
+
+    #FirstLiFooter{
+        margin-left: 75px;
       }
 
     .FooterBttn:hover{
@@ -548,11 +548,10 @@ body{
             aspect-ratio: 1487/736;
             margin-top: 50px;
     }
-
-    .FooterBttn{
-        position: relative;
-        margin-top: auto;
-        margin-bottom: 0px;
-        align-self: center;
+    .FooterBttn {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
