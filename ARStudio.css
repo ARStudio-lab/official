@@ -546,7 +546,7 @@ body{
     .FooterPoster{
             background-image: url("assets/ARStudio/ARStudioCommunityPosterMobile.svg");
             aspect-ratio: 1487/736;
-            margin-top: 50px;
+            margin-top: 20px;
     }
     .FooterBttn {
         position: absolute;
@@ -554,6 +554,6 @@ body{
         left: 50%;
         transform: translateX(-50%);
         font-size: .75rem;
-        border-radius: 5px;
+        border-radius: 7px;
     }
 }
