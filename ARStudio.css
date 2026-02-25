@@ -550,10 +550,10 @@ body{
     }
     .FooterBttn {
         position: absolute;
-        bottom: 7%;
+        bottom: 2%;
         left: 50%;
         transform: translateX(-50%);
         font-size: .75rem;
-        border-radius: 7px;
+        border-radius: 5px;
     }
 }
