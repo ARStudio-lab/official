@@ -211,13 +211,13 @@ body{
 
           .FooterPoster{
             background-image: url("assets/ARStudio/ARStudioCommunityPoster.svg");
-            background-size: cover;       /* fills entire div */
-            background-position: center;  /* keeps image centered */
+            background-size: cover;       
+            background-position: center;  
             background-repeat: no-repeat; 
             aspect-ratio: 5175/1000;
             max-width: 1920px;
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             position: relative;
       }
 
@@ -231,7 +231,7 @@ body{
          color: white;
          font-family: 'OpnSnsHbrw';
          font-size: 1.5rem;
-         padding: 10px 75px;
+         padding: 10px 55px;
         position: absolute;
         bottom: 10%;
         left: 5%;
