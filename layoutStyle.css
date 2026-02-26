@@ -80,6 +80,11 @@ li{
     margin-right: auto;
     width: 50px;
     height: 45px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#ARStudioIcon:hover{
+    transform: translateY(-1.5px);
 }
 
 .navUl{
@@ -129,6 +134,11 @@ li{
     border-radius: 7px;
     text-decoration: none;
     white-space: nowrap;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.DownloadARStudio:hover{
+    box-shadow: 0 8px 15px rgba(255, 27, 228, 0.4);
 }
 
 .docuPathNav{
