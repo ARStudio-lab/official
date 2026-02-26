@@ -138,6 +138,7 @@ li{
 }
 
 .DownloadARStudio:hover{
+    transform: translateY(-1.5px);
     box-shadow: 0 8px 15px rgba(255, 27, 228, 0.4);
 }
 
